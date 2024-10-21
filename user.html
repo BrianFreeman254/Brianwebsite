@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Access</title>
+</head>
+<body>
+    <header>
+        <h1>User Access</h1>
+    </header>
+    <main>
+        <form id="userAccessForm">
+            <label for="pin">Enter PIN:</label>
+            <input type="text" id="pin" required>
+            <button type="submit">Access Poems</button>
+        </form>
+        <div id="userMessage"></div>
+        <div id="userPoems" style="display:none;">
+            <h2>Available Poems</h2>
+            <div id="userPoemList"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
